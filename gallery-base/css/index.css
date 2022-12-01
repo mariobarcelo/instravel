@@ -7,10 +7,20 @@
 
 body {
 	font: var(--body1-regular);
+	padding: 0;
+	margin: 0;
 }
 
 p {
 	font: var(--body1-regular);
+}
+
+.cards-container {
+	display: grid;
+	grid-template-columns: repeat(3, 418px);
+	gap: 16px;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .card {
@@ -72,6 +82,7 @@ p {
 	display: flex;
 	align-items: center;
 	gap: 8px;
+	text-decoration: none;
 }
 
 .card__button:hover {
