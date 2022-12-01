@@ -1,0 +1,79 @@
+:root {
+	--white: hsl(0, 0%, 100%);
+	--black: #111111;
+	--body1-regular: 400 1rem/1.5rem Poppins;
+	--body1-bold: 700 1rem/1.5rem Poppins;
+}
+
+body {
+	font: var(--body1-regular);
+}
+
+p {
+	font: var(--body1-regular);
+}
+
+.card {
+	position: relative;
+	height: 418px;
+	width: 418px;
+}
+
+.card__img {
+	border-radius: 8px;
+	width: 100%;
+	height: 100%;
+}
+
+.card__info {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	position: absolute;
+	bottom: 16px;
+	left: 16px;
+}
+
+.card__city {
+	font: var(--body1-bold);
+	margin: 0;
+	color: var(--white);
+}
+
+.card__country {
+	font: var(--body1-regular);
+	margin: 0;
+	color: var(--white);
+}
+
+.card__hover {
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.card__hover:hover {
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.card__button {
+	font: var(--body1-bold);
+	color: var(--white);
+	background: #00a2ff;
+	padding-inline: 16px;
+	padding-block: 8px;
+	border-radius: 8px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.card__button:hover {
+	cursor: pointer;
+}
