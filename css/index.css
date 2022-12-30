@@ -75,6 +75,7 @@ p {
 .card__hover:hover {
 	opacity: 1;
 	transition: opacity 0.3s ease-in-out;
+	border-radius: 8px;
 }
 
 .card__button {
