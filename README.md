@@ -20,5 +20,11 @@ A beautiful masonry grid showing capitals of the world with a link to see them o
 - Use of minmax to stablish a minimum and maximum sizes on every column
 - Using grid-auto-rows to create dynamic rows plus use span on each card to reach the masonry effect
 
-## See it in action! 🚀
+## Going further 🚀
+These would be the possible next steps for this project
+- Get country names, featured photos and Google Maps link from an API
+- Add infinite scrolling with more countries
+- Ability to mark a country as favourite and stick it to the top
+
+## See it in action! 🔥
 [Watch the project live](https://mariobarcelo.github.io/instravel/)
